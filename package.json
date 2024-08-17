@@ -1,0 +1,15 @@
+{
+  "author": "Andrii Taranenko",
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "name": "rover",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "tsc ./index.ts  ",
+    "dev": "npx nodemon ./index.ts"
+  },
+  "version": "1.0.0"
+}
